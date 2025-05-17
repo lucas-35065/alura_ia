@@ -9,7 +9,7 @@ Você pode executar toda a lógica dos agentes diretamente no Google Colab. Siga
 1.  **Abra o Google Colab:** Vá para [colab.research.google.com](https://colab.research.google.com/).
 2.  **Crie um Novo Notebook:** Clique em "Arquivo" > "Novo notebook".
 3.  **Carregue o Código:**
-    * Se você tiver o arquivo `.py` (`agente_de_criador_de_encontros_perfeitos.py`), clique no ícone de pasta na lateral esquerda, depois no ícone de "Upload" e selecione seu arquivo.
+    * Se você tiver o arquivo `.py` (`Criador_de_Encontros_Perfeitos.ipynb`), clique no ícone de pasta na lateral esquerda, depois no ícone de "Upload" e selecione seu arquivo.
     * Alternativamente, copie o código Python diretamente para uma célula de código no notebook.
 4.  **Obtenha sua API Key do Google Gemini:** Se você ainda não tem uma, siga as instruções em [aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey).
 5.  **Configure a API Key no Colab:**
