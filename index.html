@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criador de Encontros Perfeitos ✨ (Chat)</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="container chat-container">
+        <h1>✨ Vamos Planejar o Encontro Perfeito! ✨</h1>
+
+        <div id="chat-area">
+            <div class="message bot-message">
+                <p>👋 E aí! Sou seu assistente pra criar encontros incríveis. Prontos pra começar?</p>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Digite sua resposta aqui...">
+            <button id="send-btn">Enviar</button>
+        </div>
+
+        <div id="loading" class="hidden">
+            <p>Pensando no plano perfeito... ✨</p>
+        </div>
+
+        <div id="result-area" class="hidden">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
